@@ -21,8 +21,6 @@ body{
 .header {
     width: 100%;
     padding: 0 .5em;
-    /* height: 60px; */
-    /* background: darkgoldenrod; */
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -35,11 +33,31 @@ body{
 }
 
 .header__logo {
-    /* background: red; */
     display: flex;
     align-items: center;
     gap: 5px;
 
+}
+.footer {
+    width: 100%;
+    background: var(--color-primario);
+    position: fixed;
+    bottom: 0;
+    z-index: 10;
+}
+
+.footer ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer ul li {
+    list-style: none;
+    margin: .5em 0;
+}
+
+.footer ul li a img {
+    width: 2em;
 }
 
 .logo__icono {
@@ -277,24 +295,3 @@ i.bxs-down-arrow{
     color: var(--color-primario);
 }
 
-.footer {
-    width: 100%;
-    background: var(--color-primario);
-    position: fixed;
-    bottom: 0;
-    z-index: 10;
-}
-
-.footer ul {
-    display: flex;
-    justify-content: space-around;
-}
-
-.footer ul li {
-    list-style: none;
-    margin: .5em 0;
-}
-
-.footer ul li a img {
-    width: 2em;
-}
