@@ -21,7 +21,7 @@
     position: sticky;
     z-index: 2;
     top: 0;
-    background: var(--color-ternario);
+    background: var(--color-primario);
 }
 
 .header__logo {
@@ -33,16 +33,16 @@
 }
 
 .logo__icono {
-    /* background: green; */
 }
 
 .logo__icono img {
     width: 3em;
+    color: var(--color-ternario);
 }
 
 .logo__titulo {
     /* background: orange; */
-    color:  var(--color-primario);;
+    color:  var(--color-ternario);
     font-family: "SF-Pro-Text-Bold";
     text-transform: uppercase;
 }
@@ -53,7 +53,7 @@
 
 .header__menu i {
     font-size: 3em;
-    color: var(--color-primario);
+    color: var(--color-ternario);
 }
 
 

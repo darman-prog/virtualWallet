@@ -1,0 +1,271 @@
+@import url(variable.css);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "SF-Pro-Text-Regular";
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+}
+
+.banner{
+    background: var(--color-primario);
+    width: 100%;
+    height: 30vh;
+    position: absolute;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+}
+.banner img{
+    width: 100%;
+    height: 30vh;
+    object-fit: cover;
+    border-bottom-left-radius: 50%; 
+    border-bottom-right-radius: 50%;
+}
+
+.header {
+    width: 100%;
+    padding: 0 .5em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+    position: sticky;
+    z-index: 2;
+    top: 0;
+}
+
+.header__logo {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+
+}
+
+.logo__icono {
+}
+
+.logo__icono img {
+    width: 3em;
+}
+
+.logo__titulo {
+    /* background: orange; */
+    color: var(--color-ternario);
+    font-family: "SF-Pro-Text-Bold";
+    text-transform: uppercase;
+}
+
+.header__menu {
+}
+
+.header__menu i {
+    font-size: 3em;
+    color: var(--color-ternario);
+}
+
+.main{
+    background: white;
+    width: 100%;
+    height: 100vh;
+}
+
+.main__top{
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    height: 31.5%;
+}
+
+
+.main__pelota{
+    background: var(--color-secundario);
+    width: 150px;
+    height: 150px; 
+    border-radius: 80%;  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+}
+
+.main__pelota h4,
+.main__pelota p{
+    color: var(--color-ternario);
+    font-size: 1.3em;
+    text-transform: capitalize;
+    line-height: 30px;
+}
+
+.main__pelota h4{
+    text-align: center;
+}
+
+.main__media{
+    width: 100%;
+    height: 10%;
+}
+
+.main__cajita{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+}
+
+.main__cajita button{
+    width: 5.5em;
+    height: 40%;
+    border-radius: 50px;
+    text-transform: capitalize;
+    border: 1px solid;
+}
+
+.main__cajita .cajita1{
+    background: var(--color-primario);
+    color: var(--color-ternario);
+    border: var(--color-primario);
+}
+
+.main__cajita .cajita2{
+    background: transparent;
+    color: var(--color-secundario);
+}
+
+.main__cajita .cajita3{
+    background: transparent;
+    color: var(--color-cuarto);
+}
+
+.main__media{
+    
+    margin-top: 20px;
+    width: 100%;
+    height: 20%;
+}
+
+.main__imagen{
+    /*background: red;*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.main__imagen img{
+    width: 100%; 
+    height: 100%;
+}
+
+.main__semana{
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    letter-spacing: 17px;
+    text-transform: capitalize;
+}
+
+.main_boton{
+    margin-top: 70px;
+    width: 100%;
+    height: 22%;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+
+}
+
+.main_boton__icono{
+    color: var(--color-secundario);
+    position: absolute;
+    margin-bottom: 100px;
+    margin-right: 10px;
+}
+
+.main_boton__icono i{
+    font-size: 24px;
+}
+
+.main_boton__texto{
+    width: 100%;
+    height: 100%;
+    font-size: 20px;
+}
+
+.main_boton__texto h4{
+    line-height: 30px;
+    text-transform: capitalize;
+}
+
+.main_boton__texto p{
+    color: var(--color-cuarto);
+    font-size: 10.5px;
+}
+
+.main_boton__tarjeta{
+    width: 85%;
+    height: 85%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main_boton__tarjeta img{
+    width: 80%;
+    height: 80;
+}
+
+.footer {
+    width: 100%;
+    background: var(--color-primario);
+    position: fixed;
+    bottom: 0;
+    z-index: 10;
+}
+
+.footer ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer ul li {
+    list-style: none;
+    margin: .5em 0;
+}
+
+.footer ul li a img{
+    width: 2em;
+}
+
+.footer {
+    width: 100%;
+    background: var(--color-primario);
+    position: fixed;
+    bottom: 0;
+    z-index: 10;
+}
+
+.footer ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer ul li {
+    list-style: none;
+    margin: .5em 0;
+}
+
+.footer ul li a img {
+    width: 2em;
+}
