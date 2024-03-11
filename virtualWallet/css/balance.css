@@ -22,10 +22,10 @@ body{
 }
 .banner img{
     width: 100%;
-    height: 30vh;
+    height: 10px;
     object-fit: cover;
-    border-bottom-left-radius: 50%; 
-    border-bottom-right-radius: 50%;
+    border-bottom-left-radius: 90%; 
+    border-bottom-right-radius: 90%;
 }
 
 .header {
@@ -80,7 +80,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: end;
-    height: 31.5%;
+    height: 31%;
 }
 
 
@@ -88,8 +88,10 @@ body{
     background: var(--color-secundario);
     width: 150px;
     height: 150px; 
-    border-radius: 80%;  
+    border-radius: 90%;  
     display: flex;
+    position: relative;
+    top: -5px;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -120,21 +122,26 @@ body{
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    gap: 2em;
+    gap: 2.2em;
+    position: relative;
+    top: -35px;
+    
 }
 
 .main__cajita button{
     width: 5.5em;
-    height: 40%;
+    height: 20%;
     border-radius: 50px;
     text-transform: capitalize;
     border: 1px solid;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .main__cajita .cajita1{
     background: var(--color-primario);
     color: var(--color-ternario);
     border: var(--color-primario);
+    
 }
 
 .main__cajita .cajita2{
@@ -164,26 +171,18 @@ body{
 .main__imagen img{
     width: 100%; 
     height: 100%;
-}
-
-.main__semana{
-    margin-top: 20px;
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    letter-spacing: 17px;
-    text-transform: capitalize;
+    top: -40px;
+    position: relative;
 }
 
 .main_boton{
-    margin-top: 70px;
+    margin-top: 60px;
     width: 100%;
-    height: 22%;
+    height: 25%;
     display: flex;
     flex-direction: row-reverse;
     align-items: center;
-
+    background: rgba(127, 255, 212, 0.274);
 }
 
 .main_boton__icono{
@@ -194,7 +193,9 @@ body{
 }
 
 .main_boton__icono i{
-    font-size: 24px;
+    font-size: 35px;
+    position: relative;
+    top: -25    px;
 }
 
 .main_boton__texto{
@@ -206,24 +207,42 @@ body{
 .main_boton__texto h4{
     line-height: 30px;
     text-transform: capitalize;
+    position: relative;
+    top: -30px;
+    
+    font-family: Arial, Helvetica, sans-serif;
+
 }
 
 .main_boton__texto p{
-    color: var(--color-cuarto);
-    font-size: 10.5px;
+    color: var(--color-quinto);
+    font-size: 11px;
+    position: relative;
+    top: -30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.main_boton h4,
+.main_boton p{
+    left: -55px;
+    top: -20px;
 }
 
 .main_boton__tarjeta{
     width: 85%;
     height: 85%;
     display: flex;
+    position: relative;
+    top: 10px;
     justify-content: center;
     align-items: center;
 }
 
 .main_boton__tarjeta img{
-    width: 80%;
-    height: 80;
+    width: 55%;
+    height: 55%;
+    top: -30px;
+    right: 25px;
+    position: relative;
 }
 
 .footer {
