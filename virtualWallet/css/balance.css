@@ -4,7 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "SF-Pro-Text-Regular";
+    font-family:Arial, Helvetica, sans-serif;
 }
 
 body{
@@ -15,19 +15,18 @@ body{
 .banner{
     background: var(--color-primario);
     width: 100%;
-    height: 25vh;
+    height: 28vh;
     position: absolute;
-    border-bottom-left-radius: 70%;
-    border-bottom-right-radius: 70%;
+    border-bottom-left-radius: 90%;
+    border-bottom-right-radius: 90%;
 }
 .banner img{
     width: 100%;
-    height: 10px;
+    height: 16px;
     object-fit: cover;
-    border-bottom-left-radius: 90%; 
-    border-bottom-right-radius: 90%;
+    border-bottom-left-radius: 100%; 
+    border-bottom-right-radius: 100%;
 }
-
 .header {
     width: 100%;
     padding: 0 .5em;
@@ -39,6 +38,7 @@ body{
     position: sticky;
     z-index: 2;
     top: 0;
+    background: var(--color-primario);
 }
 
 .header__logo {
